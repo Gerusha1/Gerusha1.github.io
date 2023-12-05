@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учеба</title>
+</head>
+<body>
+    <div class="tank">
+        <div class="tower"></div>
+        <div class="korpys"></div>
+        <div class="caterpillar1"></div>
+        <div class="caterpillar2"></div>
+        <div class="caterpillar3"></div>
+        <div class="caterpillar4"></div>
+        <div class="caterpillar5"></div>
+    </div>
+
+    <style>
+        .tank
+        {
+            position: absolute;
+            animation: PzKpfw 1s linear infinite alternate-reverse;
+            top: 500px;
+        }
+
+        .tower
+        {
+            margin-left: 250px;
+            background-color: rgb(113, 150, 145);
+            height: 40px;
+            width: 500px;
+        }
+
+        .korpys
+        {
+            background-color: rgb(144, 153, 156);
+            width: 500px;
+            height: 130px;
+        }
+
+        .caterpillar1
+        {
+            background-color: black;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 420px;
+            top: 100px
+        }
+
+        .caterpillar2
+        {
+            background-color: black;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 310px;
+            top: 100px
+        }
+
+        .caterpillar3
+        {
+            background-color: black;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 205px;
+            top: 100px
+        }
+
+        .caterpillar4
+        {
+            background-color: black;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 100px;
+            top: 100px
+        }
+
+        .caterpillar5
+        {
+            background-color: black;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: -15px;
+            top: 100px
+        }
+
+        @keyframes PzKpfw 
+        {
+            0%
+            {
+                left: -0vw;
+            }
+            100%
+            {
+                left: 80vw;
+            }
+        }
+    </style>
+</body>
+</html>
